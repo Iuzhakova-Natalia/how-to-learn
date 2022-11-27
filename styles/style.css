@@ -66,6 +66,15 @@
   background-color: #2f80ed;
   z-index: 0;
 }
+.two-columns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 80%;
+  min-width: 784px
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
