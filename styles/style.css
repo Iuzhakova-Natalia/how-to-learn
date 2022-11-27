@@ -10,24 +10,49 @@
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ff0000;
+  background-color: #f2f2f2 cover;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  
   /* выше установили ограничения для секции */
 }
 .header_logo_place_header {
-  
+  position: absolute;
+  width: 228px;
+  height: 32px;
+  top: 30px;
+  right: 64px;
 
 }
 .header_title_place_header {
-  display: flex;
   width: 730;
+  right: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-size: 600px;
+
+}
+.header_main-illustration_place_header {
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  right: 0%;
+  bottom: 0%;
+  background-size: cover;
+
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
-  color: blue;
+  position: absolute;
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
