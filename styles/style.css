@@ -68,12 +68,35 @@
 }
 .two-columns {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
   width: 80%;
+ 
+}
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+.two-columns__mine-text {
+  width: 80%;
   min-width: 784px
+}
+.two-columns__paragrph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+
+}
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600; 
+  font-style: oblique;
 }
 
 /* и элемента с модификатором вида ключ-значение */
