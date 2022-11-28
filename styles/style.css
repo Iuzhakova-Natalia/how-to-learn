@@ -85,18 +85,19 @@
 .two-columns__mine-text {
   width: 80%;
   min-width: 784px
+  justify-content: space-between;
 }
 .two-columns__paragrph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  
 
 }
-.two-columns__span-accent {
+.span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600; 
-  font-style: oblique;
 }
 
 /* и элемента с модификатором вида ключ-значение */
