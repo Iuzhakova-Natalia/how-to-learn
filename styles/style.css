@@ -111,8 +111,6 @@
 /* блок digits*/
 .digits {
  margin: 100px auto;
- 
-
 }
 .section-title {
   width: 60%;
@@ -122,8 +120,7 @@
   margin-bottom: 0px;
   justify-content: center;
   display: flex;
-  
- 
+
 }
 
 .section-subtitle {
@@ -209,10 +206,48 @@
   left: 0;
   z-index: 1;
 }
+/* блок kaufman */
+.kaufman {
+  overflow: hidden; 
+  margin: 80px auto;
+
+}
+.section-title_theme_dark {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+.section-subtitle_theme_dark {
+  width: 60%;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.tabl__theme_dark {
+  margin: 0px auto 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+.tabl__heading_theme_dark {
+line-height: 1.15;
+font-size: 24px;
+font-weight: 600;
+}
+.tabl__text_theme_dark {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
 }
