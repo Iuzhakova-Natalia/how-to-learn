@@ -221,7 +221,6 @@ p:last-child {
   overflow: hidden; 
   background-color: #000000;
   color: white;
-  border: 1px solid red;
 }
 
 .section-title_theme_dark {
@@ -295,17 +294,18 @@ margin: 0 auto 90px;
   display: flex;
   justify-content: space-between;
   margin: 60px auto 40px;
-  border: 1px solid red;
+  
 }
 .footer__column {
   list-style: none;
+  margin-bottom: 0px;
 }
 
 .footer__column_content_copyright {
    min-height: 250px;
    width: 50%;
    margin-top: 0px;
-   padding: 0px;
+   padding-left: 0px;
    display: flex;
    justify-content: space-between;
    flex-direction: column;
@@ -314,23 +314,26 @@ margin: 0 auto 90px;
 .logo_place_footer {
   width: 228px;
   height: 32px;
-  border: 1px solid red;
+  
 }
 
 .footer__author {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin: 18px 0px;
+  margin-top: 18px;
+
+ 
   border: 1px solid red;
 }
-
+p:last-child {
+  margin-bottom: 18px;
+}
 .footer__column_content_info {
   min-height: 250px;
   margin-top: 0px;
- 
   justify-content: right;
-  border: 1px solid red;
+  
 }
 
 .footer__column-heading {
@@ -339,7 +342,7 @@ margin: 0 auto 90px;
   font-weight: 600;
   margin-top: 0px;
   margin-bottom: 20px;
-  border: 1px solid red;
+ 
 }
 .footer__column-links {
   line-height: 30px;
@@ -347,13 +350,13 @@ margin: 0 auto 90px;
   font-weight: normal;
   text-decoration: none;
   color: white;
-  border: 1px solid red;
+  
 }
 .footer__column_content_social {
   min-height: 250px;
   margin-top: 0px;
   justify-content: right;
-  border: 1px solid red;
+  
 }
    
 .footer__column-link {
@@ -366,5 +369,5 @@ margin: 0 auto 90px;
   justify-content: end;
   text-decoration: none;
   color: white;
-  border: 1px solid red;
+
 }
