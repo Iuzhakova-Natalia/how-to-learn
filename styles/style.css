@@ -218,7 +218,7 @@ p:last-child {
 }
 /* пятый блок kaufman табличка*/
 .kaufman {
-  overflow: hidden; 
+  overflow: hidden;
   background-color: #000000;
   color: white;
 }
@@ -294,8 +294,8 @@ margin: 0 auto 90px;
   display: flex;
   justify-content: space-between;
   margin: 60px auto 40px;
-  
 }
+
 .footer__column {
   list-style: none;
   margin-bottom: 0px;
@@ -305,16 +305,16 @@ margin: 0 auto 90px;
    min-height: 250px;
    width: 50%;
    margin-top: 0px;
+   margin-bottom: 18px;
    padding-left: 0px;
    display: flex;
    justify-content: space-between;
    flex-direction: column;
-   border: 1px solid red;
 } 
+
 .logo_place_footer {
   width: 228px;
   height: 32px;
-  
 }
 
 .footer__author {
@@ -322,18 +322,13 @@ margin: 0 auto 90px;
   font-size: 18px;
   font-weight: normal;
   margin-top: 18px;
-
- 
-  border: 1px solid red;
-}
-p:last-child {
   margin-bottom: 18px;
 }
+
 .footer__column_content_info {
   min-height: 250px;
   margin-top: 0px;
   justify-content: right;
-  
 }
 
 .footer__column-heading {
@@ -342,21 +337,20 @@ p:last-child {
   font-weight: 600;
   margin-top: 0px;
   margin-bottom: 20px;
- 
 }
+
 .footer__column-links {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-  color: white;
-  
+  color: white; 
 }
+
 .footer__column_content_social {
   min-height: 250px;
   margin-top: 0px;
-  justify-content: right;
-  
+  justify-content: right; 
 }
    
 .footer__column-link {
@@ -369,5 +363,4 @@ p:last-child {
   justify-content: end;
   text-decoration: none;
   color: white;
-
 }
