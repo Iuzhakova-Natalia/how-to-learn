@@ -219,6 +219,7 @@ p:last-child {
 /* пятый блок kaufman табличка*/
 .kaufman {
   overflow: hidden;
+  position: relative;
   background-color: #000000;
   color: white;
 }
