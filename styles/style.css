@@ -331,11 +331,11 @@ margin: 0 auto 90px;
    min-height: 250px;
    width: 50%;
    margin-top: 0px;
-   margin-bottom: 18px;
    padding-left: 0px;
    display: flex;
    justify-content: space-between;
    flex-direction: column;
+   border: 1px solid red;
 } 
 
 .logo_place_footer {
@@ -349,6 +349,7 @@ margin: 0 auto 90px;
   font-weight: normal;
   margin-top: 18px;
   margin-bottom: 18px;
+  border: 1px solid red;
 }
 
 .footer__column_content_info {
