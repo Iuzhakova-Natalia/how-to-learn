@@ -21,10 +21,9 @@
   
   /* выше установили ограничения для секции */
 }
-.logo {
-  position: absolute;
-}
+
 .logo_place_header {
+  position: absolute;
   width: 228px;
   height: 32px;
   top: 30px;
@@ -240,7 +239,7 @@
 .kaufman {
   overflow: hidden;
   position: relative;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: white;
 }
 
@@ -308,7 +307,7 @@ margin: 0 auto 90px;
 
 /* шестой блок footer подвал странички */
 .footer {
-  background-color: #000000;
+  background-color: #1f1f1f;
   min-height: 350px;
   display: flex;
   color: white;
@@ -352,7 +351,8 @@ margin: 0 auto 90px;
 .footer__column_content_info {
   min-height: 250px;
   margin-top: 0px;
-  justify-content: right;
+  justify-content: left;
+  border: 1px solid red;
 }
 
 .footer__column-heading {
@@ -368,13 +368,16 @@ margin: 0 auto 90px;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
+  list-style: none;
   color: white; 
+  border: 1px solid red;
 }
 
 .footer__column_content_social {
   min-height: 250px;
   margin-top: 0px;
   justify-content: right; 
+  border: 1px solid red;
 }
    
 .footer__column-link {
@@ -383,10 +386,12 @@ margin: 0 auto 90px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  flex-direction: column;
   margin-bottom: 10px;
   justify-content: end;
   text-decoration: none;
   color: white;
+  border: 1px solid red;
 }
 .footer__social-icon {
   margin-right: 10px;
