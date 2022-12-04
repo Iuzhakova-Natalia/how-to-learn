@@ -220,13 +220,12 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  z-index: 1;
   position: absolute;
   right: 48px;
   top: 50%;
   color: #2f80ed;
   text-decoration: none;
-  z-index: 2;
+  z-index: 1;
 }
 .feynman__img {
     width: 867px;
@@ -335,7 +334,6 @@ margin: 0 auto 90px;
    display: flex;
    justify-content: space-between;
    flex-direction: column;
-   border: 1px solid red;
 } 
 
 .logo_place_footer {
@@ -349,7 +347,6 @@ margin: 0 auto 90px;
   font-weight: normal;
   margin-top: 18px;
   margin-bottom: 18px;
-  border: 1px solid red;
 }
 
 .footer__column_content_info {
