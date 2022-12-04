@@ -215,7 +215,6 @@ p:last-child {
 }
 
 .feynman__link {
-  margin-right: 48px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -225,6 +224,7 @@ p:last-child {
   top: 50%;
   color: #2f80ed;
   text-decoration: none;
+  z-index: 2;
 }
 .feynman__img {
     width: 867px;
@@ -236,6 +236,14 @@ p:last-child {
 }
 
 /* пятый блок kaufman табличка*/
+.kaufman {
+  overflow: hidden;
+  position: relative;
+  background-color: #000000;
+  color: white;
+}
+
+
 .kaufman__triangle {
   width: 867px;
   height: 637px;
@@ -247,36 +255,32 @@ p:last-child {
   z-index: 0;
 }
 
-.kaufman {
-  overflow: hidden;
-  position: relative;
-  background-color: #000000;
-  color: white;
-}
+
 
 .section-title_theme_dark {
-  position: relative;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
   margin-top: 90px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
-.section-subtitle_theme_dark {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  width: 60%;
+  z-index: 3;
+}
+
+.section-subtitle_theme_dark {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
   line-height: 34px;
   font-size:  24px;
   font-weight: normal;
   width: 60%;
+  z-index: 3;
 }
 
 .table__heading_theme_dark {
-  position: relative;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -284,10 +288,10 @@ p:last-child {
 }
 .table_theme_dark {
 margin: 0 auto 90px;
+
 }
 
 .table__text_theme_dark {
-  position: relative;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -297,19 +301,8 @@ margin: 0 auto 90px;
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  position: relative;
   z-index: 3;
   margin-top: 80px;
-}
-
-.kaufman__img {
-  position: absolute;
-  background-size: contain;
-  margin-top: 0px;
-  right: -210px;
-  width: 877px;
-  height: 877px;
-  z-index: 0;
 }
 
 /* шестой блок footer подвал странички */
