@@ -17,9 +17,6 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  
-  
-  /* выше установили ограничения для секции */
 }
 
 .logo_place_header {
@@ -58,6 +55,11 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  opacity: 0.65;
+  transition: 0.75s;
+}
+
 .header__main-illustration {
   position: absolute;
   width: 765px;
@@ -77,7 +79,58 @@
   background-color: #2f80ed;
   z-index: 0;
 }
-/* второй блок two-columns текстовое сообщение*/
+
+.techniques {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+}
+
+.cards {
+  display: flex;
+  width: 920px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid red;
+  
+}
+.cards__item {
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+.cards__image {
+  width: 160px;
+  height: 160px;
+  padding: 60px 40px 43px;
+  border: 1px solid red;
+  
+}
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0px 0px 16px;
+  margin: 0px;
+  border: 1px solid red;
+}
+.description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0px;
+  
+  border: 1px solid red;
+}
+
+.video__iframes {
+padding-top: 50px;
+margin-left: auto;
+margin-right: auto;
+}
+/* блок two-columns текстовое сообщение*/
 .two-columns {
   display: flex;
   justify-content: space-between;
@@ -224,8 +277,14 @@
   top: 50%;
   color: #2f80ed;
   text-decoration: none;
-  z-index: 1;
+  z-index: 3;
 }
+
+.feynman__link:hover {
+  opacity: 0.65;
+  transition: 0.75s;
+}
+
 .feynman__img {
     width: 867px;
     height: 637px;
