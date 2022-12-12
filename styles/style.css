@@ -128,11 +128,22 @@
 .video__iframes {
   display: flex;
   justify-content: center;
-padding-top: 50px;
-margin-left: auto;
-margin-right: auto;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
+.video__iframe {
+  margin-right: 20px;
+}
+.video__iframe:last-child {
+  margin-right: 0px;
+}
+/* блок oakley*/
 
+.oakley {
+  background-color: #f2f2f2;
+  padding-top: 180px;
+}
 /* блок two-columns текстовое сообщение*/
 .two-columns {
   display: flex;
