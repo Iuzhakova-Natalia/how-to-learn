@@ -124,12 +124,15 @@
   
   border: 1px solid red;
 }
-
+/*блок video*/
 .video__iframes {
+  display: flex;
+  justify-content: center;
 padding-top: 50px;
 margin-left: auto;
 margin-right: auto;
 }
+
 /* блок two-columns текстовое сообщение*/
 .two-columns {
   display: flex;
@@ -299,7 +302,6 @@ margin-right: auto;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
 }
 
 .khan__author {
@@ -307,7 +309,6 @@ margin-right: auto;
   font-size: 30px;
   font-weight: normal;
   margin: 0px;
-  border: 1px solid red;
 }
 
 .khan__title {
@@ -315,7 +316,6 @@ margin-right: auto;
   font-size: 60px;
   font-weight: 600;
   margin: 0px;
-  border: 1px solid red;
 }
 
 .khan__quote {
@@ -326,7 +326,6 @@ margin-right: auto;
   margin: 0px;
   padding-top: 90px;
   padding-bottom: 36px;
-  border: 1px solid red;
 }
 
 .khan__quote-author {
@@ -335,7 +334,6 @@ margin-right: auto;
   font-weight: 600;
   margin: 0px;
   padding-bottom: 10px;
-  border: 1px solid red;
 }
 
 .khan__quote-author-subline {
@@ -344,17 +342,16 @@ margin-right: auto;
   font-weight: normal;
   margin: 0px;
   padding-bottom: 68px;
-  border: 1px solid red;
 }
 .khan__block-container {
   display: flex;
-  border: 1px solid red;
 } 
 .khan__book-pic {
-  width: 620px;
-  height: 608px;
+  width: 608px;
+  height: 620px;
   padding-right: 48px;
-  border: 1px solid red;
+  object-fit: cover;
+  object-position: top;
 }
 .khan__buy-link {
   line-height: 42px;
@@ -362,8 +359,6 @@ margin-right: auto;
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
-  
-  border: 1px solid red;
 }
 
 .khan__buy-link:hover {
@@ -439,8 +434,28 @@ margin: 0 auto 90px;
   z-index: 3;
   margin-top: 80px;
 }
+/* блок resources*/
 
-/* шестой блок footer подвал странички */
+.resources__logo-zone {
+  margin: 80px auto 217px;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.resources__link {
+  width: 270px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.resources__link:hover {
+  opacity: 0.65;
+  transition: 0.75s;
+}
+/*  блок footer подвал странички */
 .footer {
   background-color: #1f1f1f;
   min-height: 350px;
@@ -530,6 +545,11 @@ margin: 0 auto 90px;
   font-weight: normal;
   text-decoration: none;
   color: white;
+}
+
+.footer__column-link:hover {
+  opacity: 0.65;
+  transition: 0.75s;
 }
 .footer__social-icon {
   margin-right: 10px;
