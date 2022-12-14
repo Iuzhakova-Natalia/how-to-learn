@@ -16,7 +16,6 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: #f2f2f2;
 }
 
 .logo_place_header {
@@ -84,56 +83,64 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
+  padding-top: 100px;
 }
 
 .cards {
   display: flex;
   width: 920px;
+  margin-right: auto;
+  margin-left: auto;
   flex-wrap: wrap;
-  justify-content: space-between;
-  border: 1px solid red;
-  
+  gap: 60px 100px;
 }
-.cards__item {
 
+.cards__item {
   display: flex;
+  width: 240px;
   flex-direction: column;
-  border: 1px solid red;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
 }
+
 .cards__image {
   width: 160px;
   height: 160px;
   padding: 60px 40px 43px;
-  border: 1px solid red;
-  
 }
+
 .cards__title {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
   padding: 0px 0px 16px;
   margin: 0px;
-  border: 1px solid red;
 }
+
 .description {
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
-  margin: 0px;
-  
-  border: 1px solid red;
+  margin: 0px; 
 }
 /*блок video*/
+.video {
+  padding-top: 100px;
+}
 .video__iframes {
   display: flex;
   justify-content: center;
   padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -60px;
 }
 .video__iframe {
   margin-right: 20px;
+  width: 515px;
+  height: 316px;
+  overflow: visible;
 }
 .video__iframe:last-child {
   margin-right: 0px;
@@ -142,7 +149,7 @@
 
 .oakley {
   background-color: #f2f2f2;
-  padding-top: 180px;
+  padding-top: 160px;
 }
 /* блок two-columns текстовое сообщение*/
 .two-columns {
@@ -200,9 +207,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight:  600;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0px;
+  margin: 0px auto;
   justify-content: center;
   display: flex;
 }
@@ -308,7 +313,10 @@
     z-index: 0;
 }
 /* блок khan*/
-
+.khan {
+  padding-top: 105px;
+  background-color: #f2f2f2;
+}
 .khan__container {
   width: 80%;
   margin-left: auto;
@@ -356,6 +364,7 @@
 }
 .khan__block-container {
   display: flex;
+  align-items: flex-start;
 } 
 .khan__book-pic {
   width: 608px;
@@ -446,6 +455,10 @@ margin: 0 auto 90px;
   margin-top: 80px;
 }
 /* блок resources*/
+
+.resources{
+  padding-top: 100px;
+}
 
 .resources__logo-zone {
   margin: 80px auto 217px;
