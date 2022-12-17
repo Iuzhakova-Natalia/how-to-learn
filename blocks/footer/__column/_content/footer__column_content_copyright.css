@@ -1,9 +1,9 @@
 .footer__column_content_copyright {
-    min-height: 250px;
-    flex-basis: 711px;
-    margin-top: 0;
-    padding-left: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+  min-height: 250px;
+  flex-basis: 711px;
+  margin-top: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
  } 
