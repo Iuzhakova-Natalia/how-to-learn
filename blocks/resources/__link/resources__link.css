@@ -1,8 +1,8 @@
 .resources__link {
     display: flex;
     justify-content: space-between;
-  }
-  .resources__link:hover {
+}
+.resources__link:hover {
     opacity: 0.65;
     transition: 0.75s;
-  }
+}

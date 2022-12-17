@@ -1,6 +1,6 @@
 .footer__column_content_info {
     min-height: 250px;
-    margin-top: 0px;
+    margin-top: 0;
     flex-direction: column;
     display: flex;
-  }
+}

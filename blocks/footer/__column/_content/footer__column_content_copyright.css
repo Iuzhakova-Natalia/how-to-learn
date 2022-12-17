@@ -1,8 +1,8 @@
 .footer__column_content_copyright {
     min-height: 250px;
-    width: 50%;
-    margin-top: 0px;
-    padding-left: 0px;
+    flex-basis: 711px;
+    margin-top: 0;
+    padding-left: 0;
     display: flex;
     justify-content: space-between;
     flex-direction: column;

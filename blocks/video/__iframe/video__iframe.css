@@ -1,10 +1,6 @@
 .video__iframe {
-    margin-right: 20px;
-    width: 515px;
-    height: 316px;
-    overflow: visible;
-  }
-
-  .video__iframe:last-child {
-    margin-right: 0px;
-  }
+  width: 515px;
+  height: 316px;
+  overflow: visible;
+  border: 0;
+}
